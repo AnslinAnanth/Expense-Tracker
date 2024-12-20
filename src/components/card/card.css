@@ -1,0 +1,24 @@
+.customCard{
+    width:25% ;
+    height:100px ;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border: 0.5px solid rgb(218, 156, 57);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.income{
+    font-weight: medium;
+    font-size: 26px;
+}
+.cost{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: -15px;
+    color:rgb(218, 156, 57 );
+}

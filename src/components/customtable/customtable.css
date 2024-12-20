@@ -1,0 +1,123 @@
+/* Table container styling */
+table {
+  width: 90%;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d48d45;
+  margin-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Header styles */
+thead th {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: black;
+  padding: 10px 15px;
+  background-color: transparent;
+  border-bottom: 1px solid #e8a160;
+  text-align: center;
+}
+
+/* Table rows */
+tbody tr {
+  border-bottom: 1px solid #d99f4d;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody td {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #deab54;
+  text-align: center;
+}
+
+/* Date column styling */
+tbody td:first-child {
+  font-weight: bold;
+  color: #b58542;
+  font-size: 14px;
+}
+
+/* Category badge styling */
+.catego {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f6f1ea;
+  color: #a17b5c;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.actionDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search {
+  width: 80%;
+  background-color: rgb(205, 171, 117);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 12px;
+  color: white;
+  font-size: 26px;
+  margin-top: 40px;
+}
+.sInp {
+  width: 100%;
+  outline: none;
+  color: white;
+  font-size: medium;
+}
+.sInp {
+  border: none;
+  background-color: transparent;
+}
+
+.sInp::placeholder {
+  color: white;
+  font-size: medium;
+}
+
+/* Details link styling */
+.details {
+  color: #b58542;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.details:hover {
+  text-decoration: underline;
+}
+.edit {
+  font-size: 16px;
+  cursor: pointer;
+}
+.tableDiv {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.noRecord {
+  text-align: center;
+  width: 100%;
+}

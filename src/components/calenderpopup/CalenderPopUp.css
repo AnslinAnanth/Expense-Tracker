@@ -1,0 +1,44 @@
+.mainCC {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(205, 171, 117);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  gap: 10px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.calenderContainer {
+  background-color: rgb(205, 171, 117);
+  width: 48.5%;
+  padding-top: 1%;
+  margin-top: 50px;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.filterBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(58, 128, 54);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin: 1.5%;
+  color: white;
+  cursor: pointer;
+}
